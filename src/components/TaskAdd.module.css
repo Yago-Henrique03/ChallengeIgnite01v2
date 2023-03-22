@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    margin-top: -1.7rem;
+}
+
+.form {
+    display: flex;
+    gap: 8px;
+}
+
+.form input {
+    width: 638px;
+    height: 54px;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+    color: var(--gray-100);
+}
+
+.form button {
+    width: 90px;
+    height: 52px;
+    color: var(--gray-100);
+    background: var(--blue-dark);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    gap: 8px;
+}
+
+.form button:hover {
+    background: var(--blue);
+    transition: 0.4s;
+}

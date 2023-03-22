@@ -1,0 +1,71 @@
+.content {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.TasksProgress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TasksProgress div {
+    display: flex;
+    gap: 8px;
+}
+
+.taskProgress div strong {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.createdTasks {
+    color: var(--blue);
+}
+
+.completedTasks {
+    color: var(--purple);
+}
+
+.TasksProgress div p {
+    background: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.tasksWrapper {
+    width: 100%;
+    height: 244px;
+    margin-top: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.noTasksWrapper {
+    width: 100%;
+    height: 244px;
+    margin-top: 24px;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 64px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noTasksWrapper > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.noTasksWrapper img {
+    width: 56px;
+    height: 56px;
+}
